@@ -1,15 +1,13 @@
-import React from 'react';
-import MainGame from './components/MainGame';
-import './App.css'
+import Game from "./Components/Game";
+import './App.css';
+import './Styles/general.css';
 
 function App() {
-
   return (
-    <div className="App">
-      <MainGame />
+    <div >
+      <Game />
     </div>
   );
-
 }
 
-export default App
+export default App;
